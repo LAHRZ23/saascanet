@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reels de Videos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=31">
+  <link rel="stylesheet" href="tema.php">
+</head>
+<body onload="checkLogin()">
+<div id="nav-placeholder"></div>
+  <div class="main-content reels">
+    <h1>🎞️ Reels informativos </h1>
+<h3> 🟢Para regresar al inicio usa el botón "🔝" de la esquina inferior derecha</h3>
+<button id="btnArriba" onclick="subir()">🔝</button>
+    <div class="reel">
+      <video controls src="videos/foro/casco.mp4"></video>
+      <p><strong>🏍️ </strong> ¡NO OLVIDES TU CASCO!</p>
+    </div>
+
+    <div class="reel">
+      <video controls src="videos/foro/mensaje.mp4"></video>
+      <p><strong>🚫📱</strong> SEGURIDAD PRIMERO</p>
+    </div>
+
+    <div class="reel">
+      <video controls src="videos/foro/oriente.mp4"></video>
+      <p><strong>📢</strong> PLAN ORIENTE EDOMEX</p>
+    </div>
+
+    
+
+  </div>
+
+  <script src="js/nav.js?v=3"></script>
+  <script src="js/nav-loader.js?v=30"></script>
+</body>
+</html>

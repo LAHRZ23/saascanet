@@ -1,0 +1,8 @@
+# Permite subir archivos más grandes (videos de tutoriales, imágenes de
+# comunicados). Si tu servidor no permite estos ajustes por .htaccess
+# (verías un error 500), avísale a Claude para ajustarlo directo en php.ini.
+php_value upload_max_filesize 80M
+php_value post_max_size 82M
+php_value max_execution_time 300
+php_value max_input_time 300
+php_value memory_limit 128M

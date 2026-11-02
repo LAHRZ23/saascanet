@@ -1,0 +1,15 @@
+# Credenciales reales: nunca subirlas
+config.php
+
+# Archivos que suben los usuarios (datos reales)
+uploads/**
+!uploads/**/
+!uploads/**/.gitkeep
+!uploads/**/.htaccess
+
+# Multimedia institucional
+videos/
+Doc/
+
+.DS_Store
+Thumbs.db
